@@ -39,7 +39,7 @@ myViewController.setupAccessibilityIdentifiersForViewProperties(withAccessibilit
 
 This will automatically assign accessibility identifiers to all UIView properties in your class based on their property name and optional metadata:
 
-<B>\<MyViewController\>.\<propertyName\>[.s\<Section\>-r\<Row\>][.\<Index\>][.\<Purpose\>]\</B\>
+<B>\<MyViewController\>.\<propertyName\>[.s\<Section\>-r\<Row\>][.\<Index\>][.\<Purpose\>]</B>
 
 ## Example:
 
@@ -57,6 +57,7 @@ Useful for UI testing, especially with XCTest.
 
 ## Example
 
+```swift
 class MyView: UIView, Accessible {
     let titleLabel = UILabel()
     let submitButton = UIButton()
@@ -66,6 +67,7 @@ class MyView: UIView, Accessible {
         setupAccessibilityIdentifiersForViewProperties(withAccessibilityInfo: info)
     }
 }
+```
 
 Generated accessibility identifiers:
 
