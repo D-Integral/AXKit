@@ -1,6 +1,6 @@
-# SnazzyAccessibility
+# AXKit
 
-SnazzyAccessibility is a lightweight Swift library that generates accessibility identifiers for your UIKit views. It was written to simplify automated UI testing by providing consistent, structured identifiers for views.
+AXKit is a lightweight Swift library that generates accessibility identifiers for your UIKit views. It was written to simplify automated UI testing by providing consistent, structured identifiers for views.
 
 ## Features
 
@@ -8,10 +8,6 @@ SnazzyAccessibility is a lightweight Swift library that generates accessibility 
 - Supports hierarchical identifiers including index, indexPath, and purpose.
 - Lightweight and simple to integrate.
 - Only active in DEBUG builds, ensuring no impact on production apps.
-
-## Installation
-
-Simply add SnazzyAccessible.swift to your project. No external dependencies are required.
 
 ## Usage
 
@@ -57,7 +53,7 @@ Useful for UI testing, especially with XCTest.
 
 ## License
 
-SnazzyAccessibility is available under the MIT license. See the LICENSE file for more info.
+AXKit is available under the MIT license. See the LICENSE file for more info.
 
 ## Author
 
