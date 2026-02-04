@@ -1,6 +1,6 @@
 # SnazzyAccessibility
 
-SnazzyAccessibility is a lightweight Swift library that makes it easy to automatically generate accessibility identifiers for your UIKit views. It was written to simplify automated UI testing by providing consistent, structured identifiers for views.
+SnazzyAccessibility is a lightweight Swift library that generates accessibility identifiers for your UIKit views. It was written to simplify automated UI testing by providing consistent, structured identifiers for views.
 
 ## Features
 
