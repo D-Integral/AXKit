@@ -55,25 +55,6 @@ The library uses reflection (Mirror) to automatically find all UIView properties
 
 Useful for UI testing, especially with XCTest.
 
-## Example
-
-```swift
-class MyView: UIView, Accessible {
-    let titleLabel = UILabel()
-    let submitButton = UIButton()
-    
-    func configureViews() {
-        let info = AccessibilityInfo(index: 0, purpose: "submit")
-        setupAccessibilityIdentifiersForViewProperties(withAccessibilityInfo: info)
-    }
-}
-```
-
-Generated accessibility identifiers:
-
-MyView.titleLabel
-MyView.submitButton.0.submit
-
 ## License
 
 SnazzyAccessibility is available under the MIT license. See the LICENSE file for more info.
