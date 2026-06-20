@@ -1,4 +1,8 @@
-# AXKit
+<p align="center">
+  <img src="axkit_icon.png" alt="AXKit icon" width="200" />
+</p>
+
+<h1 align="center">AXKit</h1>
 
 AXKit is a lightweight Swift package that automatically generates structured accessibility identifiers for your UIKit views. It was written to simplify automated UI testing by giving every view a consistent, predictable identifier derived from the property that owns it.
 
